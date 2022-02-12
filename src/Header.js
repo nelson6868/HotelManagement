@@ -6,17 +6,15 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 // import { Avatar } from "@material-ui/core";
 import Avatar from '@material-ui/core/Avatar';
 import { Link } from "react-router-dom";
+import logo  from "./logo.jpg"
 
 
 function Header() {
     return (
         <div className='header'>
             <Link to='/'>
-                <img
-                    className="header__icon"
-                    src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
-                    alt=""
-                />
+            
+                 <img className="header__icon" src={logo} alt="back"/>
             </Link>
            
             <div className='header__center'>
